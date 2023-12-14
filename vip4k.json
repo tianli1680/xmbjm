@@ -39,20 +39,6 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
     },
-   {    "key": "蜗牛弹幕",
-                "name": "📚拾光┃蜗牛4K",
-                "type": 3,
-                "api": "csp_XBPQ",
-                "ext": {
- "简介":"class=\"video-info-item video-info-content vod_content\">&&</span>",               
- "数组":"class=\"module-item-text\"&&class=\"loading\"",
-  "线路数组":"data-dropdown-value=&&</div>",
-   "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",        
- "副标题":" class=\"module-item-text\">&&</div>",   
- "分类":"电影$1#日韩剧$21#海外剧$2#动漫$20",   
-    "分类url":"https://v.wuxivlog.cn/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html"   
-        }
-        },
 {"key":"芒果","name":"📚拾光┃芒芒","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/mangguo.js"},
 {"key":"爱奇异","name":"📚拾光┃奇异","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/aiqiyi.js"},
 {"key":"优酷","name":"📚拾光┃游酷","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/youku.js"},
@@ -72,18 +58,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.gsjtlxy.top/xgapp.php/v3/"
-    },
-   {
-      "key": "小姨",
-      "name": "📚拾光┃小妹",
-      "type": 1,
-      "api": "http://1.ahailove.cn:23456/cj/api.php/provide/vod/",
-      "categories": [
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫"
-      ]
     },
 	    {
       "key": "drpy_js_两个BT",
@@ -178,16 +152,6 @@
             "changeable": 1,
             "ext": "https://haozhansou.com/"
         },
-	    {
-      "key": "zxzj",
-      "name": "📚拾光┃外剧",
-      "type": 3,
-      "api": "csp_Zxzj",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.zxzj.pro/"
-    },
         {
             "key": "一起看 ",
             "name": "📚拾光┃一起看",
@@ -376,6 +340,82 @@
                 "分类": "电影$1#连续剧$2#动漫$4#综艺$3#记录片$5"
             }
         },
+ {
+      "key": "骑骑影院",
+      "name": "📚拾光┃影院",
+      "type": 3,
+      "playerType": 2,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.gsjtlxy.top/xgapp.php/v3/"
+    },
+  {
+      "key": "益达影视",
+      "name": "📚拾光┃益达",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://myd666.tv/lvdou_api.php/v1.vod"
+    },
+ {
+      "key": "csp_MeiJu69",
+      "name": "📚拾光┃美剧",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.69mj.com/xgapp.php/v2/"
+    },
+  {
+      "key": "49zy",
+      "name": "📚拾光┃四九资源",
+      "type": 1,
+      "api": "https://49zyw.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产剧",
+        "纪录片",
+        "欧美剧",
+        "香港剧",
+        "动作片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "喜剧片",
+        "动画片",
+        "犯罪片",
+        "韩国剧",
+        "动漫",
+        "电影",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "台湾剧",
+        "国产动漫",
+        "日本动漫",
+        "欧美动漫",
+        "泰国剧",
+        "日剧",
+        "电影解说",
+        "奇幻片",
+        "灾难片",
+        "悬疑片",
+        "其他片",
+        "体育赛事",
+        "海外剧"
+      ]
+    },
         {
             "key": "88js",
             "name": "📚拾光┃88看球",
@@ -404,6 +444,18 @@
             "quickSearch": 0,
             "changeable": 0
         },
+ {
+      "key": "XBPQ_葡萄",
+      "name": "📚拾光┃葡萄短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://jihulab.com/zxjk/jk/-/raw/main/qrh/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "ext": {
+        "数组": "class=\"stui-vodlist__box&&</li",
+        "分类url": "https://www.putaojuchang.com/show/{cateId}/area/{area}/class/{class}/by/{by}/page/{catePg}/year/{year}.html",
+        "分类": "微剧场$1#言情$6#逆袭$7#战神$8#异能$9#生活$10#重生$12#复仇$20#爱情$11"
+      }
+    },
 { "key": "横版影院", "name": "📚拾光┃短剧①
     ", "type": 1, "api": "https://cj.lzcaiji.com/api.php/provide/vod/from/liangzi/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1, "categories": [ "短剧" ] },
 {
