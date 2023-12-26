@@ -1,6 +1,6 @@
 {
 "spider": "./xmbjm.jar",
-"lives": [{"name": "live","type": 0,"url":"https://pastebin.com/raw/r3rwVPbb","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"}],
+"lives": [{"name": "live","type": 0,"url":"https://raw.githubusercontent.com/tianli1680/xmbjm/main/xinlive.txt","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"}],
 
 "sites":[
 
