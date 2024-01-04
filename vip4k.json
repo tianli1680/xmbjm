@@ -37,7 +37,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.xyz/$$$弹"
     },
 {"key":"芒果","name":"📚拾光┃芒芒","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/mangguo.js"},
 {"key":"爱奇异","name":"📚拾光┃奇异","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/aiqiyi.js"},
