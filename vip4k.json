@@ -5,7 +5,7 @@
         {
             "name": "live",
             "type": 0,
-            "url": "./lives/live.txt",
+            "url": "./lib/live.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],
@@ -27,7 +27,7 @@
       "searchable": 1,
       "filterable": 0,
       "changeable": 0,
-      "jar": "./alibaba.jar"
+      "jar": "./lib/alibaba.jar"
     },
 		    {
       "key": "玩偶哥哥",
@@ -37,7 +37,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.xyz/$$$弹"
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
     },
 {"key":"芒果","name":"📚拾光┃芒芒","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/mangguo.js"},
 {"key":"爱奇异","name":"📚拾光┃奇异","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/aiqiyi.js"},
@@ -84,8 +84,8 @@
             "quickSearch": 1,
             "changeable": 1,
             "playerType": "1",
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jp.js"
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/jp.js"
         },
 	            {
             "key": "csp_Nmys",
@@ -95,7 +95,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "./json/nmys.json"
+            "ext": "./lib/nmys.json"
         },
 	    {
       "key": "csp_Bttoo",
@@ -123,7 +123,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://111.67.196.181/xpath/农民影视.json"
+      "ext": "./lib/农民影视.json"
     },
         {
             "key": "橘子",
@@ -169,8 +169,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://pan.shangui.cc/f/Bloip/%E9%94%90%E8%A1%8C%E5%8A%A0%E9%80%9F%E5%BD%B1%E9%99%A2.json",
-      "jar": "https://pan.shangui.cc/f/d5vLfo/xyq723.jar;md5;431809c4e972554e50c3ffeddf177344"
+      "ext": "./lib/锐行加速影院.json",
+      "jar": "./lib/xyq723.jar;md5;431809c4e972554e50c3ffeddf177344"
     },
  {
       "key": "csp_XYQHiker_奇趣影院",
@@ -180,8 +180,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://pan.shangui.cc/f/0D48hj/%E5%A5%87%E8%B6%A3%E5%BD%B1%E8%A7%86.json",
-      "jar": "https://pan.shangui.cc/f/d5vLfo/xyq723.jar;md5;431809c4e972554e50c3ffeddf177344"
+      "ext": "./lib/奇趣影视.json",
+      "jar": "./lib/xyq723.jar;md5;431809c4e972554e50c3ffeddf177344"
     },
  {
       "key": "csp_XYQHiker_电影牛影院",
@@ -191,8 +191,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://pan.shangui.cc/f/jX7s7/%E7%94%B5%E5%BD%B1%E7%89%9B%E5%BD%B1%E9%99%A2.json",
-      "jar": "https://pan.shangui.cc/f/d5vLfo/xyq723.jar;md5;431809c4e972554e50c3ffeddf177344"
+      "ext": "./lib/电影牛影院.json",
+      "jar": "./lib/xyq723.jar;md5;431809c4e972554e50c3ffeddf177344"
     },
  {
       "key": "meowtv_lzzy",
@@ -303,7 +303,7 @@
       "type": 3,
       "playerType": "2",
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/厂长.js"
+      "ext": "./lib/厂长.js"
     },
  {
             "key": "MFKYS",
@@ -314,7 +314,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "jar": "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/xbpq.jar",
+            "jar": "./lib/xbpq.jar",
             "ext": {
                 "站名": "免费看影视",
                 "作者": "yydf",
@@ -420,8 +420,8 @@
             "key": "88js",
             "name": "📚拾光┃88看球",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/88看球.js",
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/88看球.js",
             "style": {
                 "type": "rect",
                 "ratio": 1
@@ -434,8 +434,8 @@
             "key": "csp_qiumi",
             "name": "📚拾光┃球迷直播",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jrk.js",
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/jrk.js",
             "style": {
                 "type": "rect",
                 "ratio": 1
@@ -512,8 +512,8 @@
             "key": "酷奇js",
             "name": "📚拾光┃酷奇MV",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/酷奇MV.js",
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/酷奇MV.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -574,14 +574,14 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/bilibili.json"
+            "ext": "./lib/bilibili.json"
         },
         {
             "key": "dr_兔小贝",
             "name": "📚拾光┃教育启蒙",
             "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/兔小贝.js",
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/兔小贝.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -602,7 +602,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/少儿教育.json"
+            "ext": "./lib/少儿教育.json"
         },
         {
             "key": "小学课堂",
@@ -616,7 +616,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/小学课堂.json"
+            "ext": "./lib/小学课堂.json"
         },
         {
             "key": "初中课堂",
@@ -630,7 +630,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/初中课堂.json"
+            "ext": "./lib/初中课堂.json"
         },
         {
             "key": "高中教育",
@@ -644,7 +644,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/高中课堂.json"
+            "ext": "./lib/高中课堂.json"
         },
         {
             "key": "ext_live_protocol",
@@ -664,7 +664,7 @@
             "quickSearch": 0
         }
     ],
-//=========解析嗅探====================================================
+
 "parses": [
 {"name":"拾光m3u8嗅探","type":0,"url":"https://jx.m3u8.tv/jiexi/?url=","ext": {"flag": ["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","yk","优
 酷","mgtv","imgo","芒果"]}},
@@ -705,7 +705,7 @@
     },	   
 {"name":"拾光夜幕嗅探","type":0,"url":"https://www.yemu.xyz/?url="}],
 
-//===========解析完成==================================
+
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
 
 "doh":[
@@ -715,7 +715,7 @@
 {"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query","ips":["84.200.69.80","84.200.70.40"]},
 {"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}],
  
-//过滤
+
  "rules":[
 
 {"host":"www.djuu.com","rule":["mp4.djuu.com","m4a"]},
@@ -728,7 +728,7 @@
 {"host":"www.fun4k.com","rule":["https://hd.ijycnd.com/play","index.m3u8"]},
 {"host":"zjmiao.com","rule":["play.videomiao.vip/API.php","time=","key=","path="]}],
 
-//解码
+
    "ijk": [
    {"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-rangeupport","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurateeek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
    {"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-rangeupport","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurateeek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}],
