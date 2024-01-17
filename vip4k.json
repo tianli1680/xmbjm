@@ -5,7 +5,7 @@
         {
             "name": "live",
             "type": 0,
-            "url": "./lib/live.txt",
+            "url": "./lives/live.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],
@@ -27,7 +27,7 @@
       "searchable": 1,
       "filterable": 0,
       "changeable": 0,
-      "jar": "./lib/alibaba.jar"
+      "jar": "./alibaba.jar"
     },
 		    {
       "key": "玩偶哥哥",
@@ -84,8 +84,8 @@
             "quickSearch": 1,
             "changeable": 1,
             "playerType": "1",
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/jp.js"
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/jp.js"
         },
 	            {
             "key": "csp_Nmys",
@@ -95,7 +95,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "./lib/nmys.json"
+            "ext": "./json/nmys.json"
         },
 	    {
       "key": "csp_Bttoo",
@@ -115,15 +115,15 @@
             "quickSearch": 1,
             "changeable": 1
         },
-    {
-      "key": "meowtv_nmys",
+     {
+      "key": "csp_Nmys",
       "name": "📚拾光┃NM2K",
       "type": 3,
       "api": "csp_Nmys",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "ext": "./lib/农民影视.json"
+      "filterable": 1,
+      "jar": "https://d.kstore.space/download/4708/js/nm4k.jar"
     },
         {
             "key": "橘子",
@@ -161,6 +161,13 @@
             "quickSearch": 1,
             "changeable": 1
         },
+  {
+      "key": "影探",
+      "name": "📚拾光┃影探",
+      "type": 3,
+      "api": "https://d.kstore.space/download/4708/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/4708/js/影探4K.js"
+    },
 {
       "key": "csp_XYQHiker_锐行加速影院",
       "name": "📚拾光┃锐行",
@@ -169,8 +176,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/锐行加速影院.json",
-      "jar": "./lib/xyq723.jar;md5;431809c4e972554e50c3ffeddf177344"
+      "ext": "https://d.kstore.space/download/4708/js/锐行影院.json",
+      "jar": "https://d.kstore.space/download/4708/lib/xyq723.jar"
     },
  {
       "key": "csp_XYQHiker_奇趣影院",
@@ -180,8 +187,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/奇趣影视.json",
-      "jar": "./lib/xyq723.jar;md5;431809c4e972554e50c3ffeddf177344"
+      "ext": "https://d.kstore.space/download/4708/js/奇趣影视.json",
+      "jar": "https://d.kstore.space/download/4708/lib/xyq723.jar"
     },
  {
       "key": "csp_XYQHiker_电影牛影院",
@@ -191,8 +198,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/电影牛影院.json",
-      "jar": "./lib/xyq723.jar;md5;431809c4e972554e50c3ffeddf177344"
+      "ext": "https://d.kstore.space/download/4708/js/电影牛影院.json",
+      "jar": "https://d.kstore.space/download/4708/lib/xyq723.jar"
     },
  {
       "key": "meowtv_lzzy",
@@ -264,15 +271,12 @@
             "quickSearch": 1
         },
         {
-            "key": "Cokemv",
-            "name": "📚拾光┃可乐",
-            "type": 3,
-            "api": "csp_Cokemv",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
+      "key": "drpy_js_360影视",
+      "name": "📚拾光┃三六零",
+      "type": 3,
+      "api": "https://d.kstore.space/download/4708/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/4708/js/三六零.js"
+    },
         {
             "key": "csp_SP33",
             "name": "📚拾光┃三三",
@@ -302,64 +306,44 @@
       "name": "📚拾光┃厂长",
       "type": 3,
       "playerType": "2",
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/厂长.js"
+      "api": "https://d.kstore.space/download/4708/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/4708/js/厂长.js"
+    },
+    {
+      "key": "csp_Cs1369",
+      "name": "📚拾光┃966",
+      "type": 3,
+      "api": "csp_Cs1369",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://d.kstore.space/download/4708/js/nm4k.jar"
     },
  {
-            "key": "MFKYS",
-            "name": "📚拾光┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "jar": "./lib/xbpq.jar",
-            "ext": {
-                "站名": "免费看影视",
-                "作者": "yydf",
-                "主页url": "https://qzy998-1.ysgq.xyz",
-                "地区": "地区：&&</p",
-                "年代": "年代：&&</p",
-                "语言": "语言：&&</p",
-                "类型": "类型：&&</p",
-                "导演": "导演：&&</p",
-                "主演": "演员：&&</p",
-                "简介": "【拾光畅谈】公众号提醒你：“资源免费，广告勿信！”+<div class=\"desc_txt cf ec-palytcji cor3\">&&</div>",
-                "搜索url": "/index.php/vod/search.html?wd={wd}",
-                "数组": "<div class=\"pack-packcover returl list-top-b\">&&</div",
-                "链接": "href=\"&&\"",
-                "图片": "data-original=\"&&\"",
-                "标题": "title=\"&&\"",
-                "副标题": "<span class=\"pack-prb hidden\">&&</span>",
-                "线路数组": "<a class=\"channelname swiper-slide&&</a>",
-                "线路名称": "</i>&nbsp;&&</span>",
-                "播放数组": "<ul class=\"content_playlist cf\">&&</ul>",
-                "播放列表": ">&&</a",
-                "分类url": "https://qzy998-1.ysgq.xyz/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#连续剧$2#动漫$4#综艺$3#记录片$5"
-            }
-        },
+      "key": "csp_Auete",
+      "name": "📚拾光┃影视",
+      "type": 3,
+      "api": "csp_Auete",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://d.kstore.space/download/4708/js/nm4k.jar"
+    },
  {
-      "key": "骑骑影院",
+      "key": "FREE1OK",
       "name": "📚拾光┃影院",
       "type": 3,
-      "playerType": 2,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.gsjtlxy.top/xgapp.php/v3/"
+      "playerType": "1",
+      "api": "https://d.kstore.space/download/4708/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/4708/js/Fr影院.js"
     },
-  {
-      "key": "益达影视",
-      "name": "📚拾光┃益达",
+ {
+      "key": "云播影视",
+      "name": "📚拾光┃云播",
       "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://myd666.tv/lvdou_api.php/v1.vod"
+      "playerType": "2",
+      "api": "https://d.kstore.space/download/4708/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/4708/js/云播.js"
     },
  {
       "key": "csp_MeiJu69",
@@ -371,71 +355,65 @@
       "filterable": 1,
       "ext": "https://www.69mj.com/xgapp.php/v2/"
     },
-  {
-      "key": "49zy",
-      "name": "📚拾光┃四九资源",
-      "type": 1,
-      "api": "https://49zyw.com/api.php/provide/vod/?ac=list",
+    {
+      "key": "新视觉",
+      "name": "📚拾光┃视觉",
+      "type": 3,
+      "api": "csp_Xinsj",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1,
-      "categories": [
-        "国产剧",
-        "纪录片",
-        "欧美剧",
-        "香港剧",
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "喜剧片",
-        "动画片",
-        "犯罪片",
-        "韩国剧",
-        "动漫",
-        "电影",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "台湾剧",
-        "国产动漫",
-        "日本动漫",
-        "欧美动漫",
-        "泰国剧",
-        "日剧",
-        "电影解说",
-        "奇幻片",
-        "灾难片",
-        "悬疑片",
-        "其他片",
-        "体育赛事",
-        "海外剧"
-      ]
+      "ext": "https://www.80yy3.com/",
+      "jar": "https://d.kstore.space/download/4708/js/nm4k.jar"
+    },
+   {
+      "key": "csp_动漫巴士",
+      "name": "📚拾光┃动漫巴士",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://d.kstore.space/download/4708/js/动漫巴士.json"
+    },
+        {
+      "key": "csp_聚短视频",
+      "name": "📚拾光┃短视频",
+      "type": 3,
+      "api": "https://d.kstore.space/download/4708/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/4708/js/短视频.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+			                        {
+      "key": "drpy_js_短剧网",
+      "name": "📚拾光┃短剧网",
+      "type": 3,
+      "api": "https://d.kstore.space/download/4708/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/4708/js/短剧网.js"
+    },
+
+ {
+      "key": "看球",
+      "name": "📚拾光┃看球",
+      "type": 3,
+      "api": "csp_Kanqiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "gridview": 3,
+      "style": {
+        "type": "list"
+      },
+      "jar": "https://d.kstore.space/download/4708/js/nm4k.jar"
     },
         {
             "key": "88js",
             "name": "📚拾光┃88看球",
             "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/88看球.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "csp_qiumi",
-            "name": "📚拾光┃球迷直播",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/jrk.js",
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/88看球.js",
             "style": {
                 "type": "rect",
                 "ratio": 1
@@ -445,36 +423,40 @@
             "changeable": 0
         },
  {
-      "key": "XBPQ_葡萄",
-      "name": "📚拾光┃葡萄短剧",
+      "key": "drpy_js_310直播",
+      "name": "📚拾光┃三幺零蓝足",
       "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://jihulab.com/zxjk/jk/-/raw/main/qrh/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
-      "ext": {
-        "数组": "class=\"stui-vodlist__box&&</li",
-        "分类url": "https://www.putaojuchang.com/show/{cateId}/area/{area}/class/{class}/by/{by}/page/{catePg}/year/{year}.html",
-        "分类": "微剧场$1#言情$6#逆袭$7#战神$8#异能$9#生活$10#重生$12#复仇$20#爱情$11"
-      }
+      "api": "https://d.kstore.space/download/4708/lib/drpy2.min.js",
+      "changeable": 0,
+      "gridview": 3,
+      "style": {
+        "type": "list"
+      },
+      "ext": "https://d.kstore.space/download/4708/js/蓝足.js"
     },
-{ "key": "横版影院", "name": "📚拾光┃短剧①
-    ", "type": 1, "api": "https://cj.lzcaiji.com/api.php/provide/vod/from/liangzi/?ac=list", "searchable": 1, "quickSearch": 1, "filterable": 1, "categories": [ "短剧" ] },
-{
-      "key": "PT",
-      "name": "📚拾光┃短剧②",
+        {
+            "key": "csp_qiumi",
+            "name": "📚拾光┃球迷直播",
+            "type": 3,
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/jrk.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+    {
+      "key": "alist",
+      "name": "📚拾光┃网盘",
       "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "数组": "class=\"stui-vodlist__box&&</li",
-        "分类url": "https://www.putaojuchang.com/show/{cateId}/area/{area}/class/{class}/by/{by}/page/{catePg}/year/{year}.html",
-        "分类": "微剧场$1#言情$6#逆袭$7#战神$8#异能$9#生活$10#重生$12#复仇$20#爱情$11"
-      }
-    }, 
-			                        {
-      "key": "drpy_js_短剧网",
-      "name": "📚拾光┃短剧网",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/短剧网.js"
+      "api": "csp_AList",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://d.kstore.space/download/4708/js/alist.json"
     },
     {
       "key": "戏曲杂苑",
@@ -496,24 +478,26 @@
       "filterable": 1,
       "ext": "./lib/哔哩相声.json"
     },
-        {
-            "key": "MV_vod",
-            "name": "📚拾光┃20万MV",
-            "type": 1,
-            "api": "https://mv.wogg.link/mv/vod",
-            "style": {
-                "type": "oval"
-            },
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
-        },
+       	    {
+      "key": "Biliych",
+      "name": "📚拾光┃歌曲大全",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://d.kstore.space/download/4708/js/biliych.json"
+    },
         {
             "key": "酷奇js",
             "name": "📚拾光┃酷奇MV",
             "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/酷奇MV.js",
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/酷奇MV.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -562,6 +546,19 @@
             "changeable": 0,
             "ext": "http://127.0.0.1:9978/file/tvboxqq/token.txt+4k|auto|fhd"
         },
+{
+      "key": "Aid",
+      "name": "📚拾光┃急救教学",
+      "type": 3,
+      "api": "csp_FirstAid",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 3.8
+      }
+    },
         {
             "key": "Bili",
             "name": "📚拾光┃哔哩合集",
@@ -574,14 +571,14 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./lib/bilibili.json"
+            "ext": "./json/bilibili.json"
         },
         {
             "key": "dr_兔小贝",
             "name": "📚拾光┃教育启蒙",
             "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/兔小贝.js",
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/兔小贝.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -602,7 +599,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./lib/少儿教育.json"
+            "ext": "./json/少儿教育.json"
         },
         {
             "key": "小学课堂",
@@ -616,7 +613,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./lib/小学课堂.json"
+            "ext": "./json/小学课堂.json"
         },
         {
             "key": "初中课堂",
@@ -630,7 +627,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./lib/初中课堂.json"
+            "ext": "./json/初中课堂.json"
         },
         {
             "key": "高中教育",
@@ -644,7 +641,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./lib/高中课堂.json"
+            "ext": "./json/高中课堂.json"
         },
         {
             "key": "ext_live_protocol",
@@ -664,7 +661,7 @@
             "quickSearch": 0
         }
     ],
-
+//=========解析嗅探====================================================
 "parses": [
 {"name":"拾光m3u8嗅探","type":0,"url":"https://jx.m3u8.tv/jiexi/?url=","ext": {"flag": ["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","yk","优
 酷","mgtv","imgo","芒果"]}},
@@ -705,7 +702,7 @@
     },	   
 {"name":"拾光夜幕嗅探","type":0,"url":"https://www.yemu.xyz/?url="}],
 
-
+//===========解析完成==================================
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
 
 "doh":[
@@ -715,7 +712,7 @@
 {"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query","ips":["84.200.69.80","84.200.70.40"]},
 {"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}],
  
-
+//过滤
  "rules":[
 
 {"host":"www.djuu.com","rule":["mp4.djuu.com","m4a"]},
@@ -728,7 +725,7 @@
 {"host":"www.fun4k.com","rule":["https://hd.ijycnd.com/play","index.m3u8"]},
 {"host":"zjmiao.com","rule":["play.videomiao.vip/API.php","time=","key=","path="]}],
 
-
+//解码
    "ijk": [
    {"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-rangeupport","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurateeek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
    {"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-rangeupport","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurateeek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}],
